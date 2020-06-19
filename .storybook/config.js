@@ -19,7 +19,7 @@ addParameters({
   },
 });
 
-// automatically import all files ending in *.stories.js
+// automatically import all files ending in *.stories.js or *.story.js
 const req = [
   require.context("../pages", true, /.stor(ies|y).[tj]sx$/),
   require.context("../components", true, /.stor(ies|y).[tj]sx$/),
