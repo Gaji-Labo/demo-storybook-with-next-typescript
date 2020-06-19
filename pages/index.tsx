@@ -1,4 +1,4 @@
-import { FC } from "react";
+import React, { FC } from "react";
 import Head from "next/head";
 
 const Home: FC = () => {
