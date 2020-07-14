@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build; build-storybook -c .storybook -o public/_storybook",
     "start": "next start",
-    "storybook": "start-storybook -s ./public -p 6006"
+    "storybook": "start-storybook -c .storybook -p 6006"
   },
   "dependencies": {
     "next": "9.4.4",
