@@ -20,10 +20,7 @@ addParameters({
 });
 
 // automatically import all files ending in *.stories.js or *.story.js
-const req = [
-  require.context("../pages", true, /.stor(ies|y).[tj]sx$/),
-  require.context("../components", true, /.stor(ies|y).[tj]sx$/),
-];
+const req = [require.context("../components", true, /.stor(ies|y).[tj]sx$/)];
 
 // the first argument can be an array too, so if you want to load from different locations or
 // different extensions, you can do it like this: configure([req1, req2], module)
