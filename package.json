@@ -7,6 +7,7 @@
     "build": "next build; build-storybook -c .storybook -o public/_storybook",
     "start": "next start",
     "storybook": "start-storybook -c .storybook -p 6006",
+    "storyshots": "jest --config ./jest.storyshots.config.js",
     "test": "jest"
   },
   "dependencies": {
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "@storybook/addon-links": "^6.0.5",
+    "@storybook/addon-storyshots": "^6.0.10",
     "@storybook/react": "^6.0.5",
     "@types/jest": "^26.0.10",
     "@types/node": "^14.0.13",
