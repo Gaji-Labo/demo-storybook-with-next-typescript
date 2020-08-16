@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build; build-storybook -c .storybook -o public/_storybook",
     "start": "next start",
-    "storybook": "start-storybook -c .storybook -p 6006"
+    "storybook": "start-storybook -c .storybook -p 6006",
+    "test": "jest"
   },
   "dependencies": {
     "next": "9.4.4",
