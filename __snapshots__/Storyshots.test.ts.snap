@@ -41,6 +41,6 @@ exports[`Storyshots Demo Button With Text 1`] = `
   }
   type="button"
 >
-  Hello Button
+  Hello Button!
 </button>
 `;
