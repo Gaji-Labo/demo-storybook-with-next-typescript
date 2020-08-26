@@ -1,6 +1,15 @@
 import { addParameters, addDecorator } from "@storybook/react";
 import { ThemeProvider, createMuiTheme } from "@material-ui/core/styles";
+import { StylesProvider } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
+
+// NOTE: Story 単位で makeStyles の className 連番をリセットしたい
+const createGenerateId = () => {
+  let counter = 0;
+
+  return (rule, styleSheet) =>
+    `${styleSheet.options.classNamePrefix}-${rule.key}-${counter++}`;
+};
 
 const theme = createMuiTheme({
   palette: {
@@ -20,10 +29,12 @@ const theme = createMuiTheme({
 });
 
 addDecorator((story) => (
-  <ThemeProvider theme={theme}>
-    <CssBaseline />
-    {story()}
-  </ThemeProvider>
+  <StylesProvider generateClassName={createGenerateId()}>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      {story()}
+    </ThemeProvider>
+  </StylesProvider>
 ));
 
 addParameters({
