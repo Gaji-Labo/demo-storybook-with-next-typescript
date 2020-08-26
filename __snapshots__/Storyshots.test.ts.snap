@@ -180,7 +180,12 @@ exports[`Storyshots Material-UI Button Default 1`] = `
   <span
     className="MuiButton-label"
   >
-    Hello World
+    Hello 
+    <span
+      className="makeStyles-labelHighlight-1"
+    >
+      World
+    </span>
   </span>
 </button>
 `;
@@ -213,7 +218,7 @@ exports[`Storyshots Material-UI Button Secondary 1`] = `
 
 exports[`Storyshots Material-UI CircularProgress Default 1`] = `
 <div
-  className="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+  className="MuiCircularProgress-root makeStyles-labelHighlight-2 MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
   role="progressbar"
   style={
     Object {
@@ -294,6 +299,86 @@ Array [
 ]
 `;
 
+exports[`Storyshots Material-UI CircularProgress Triple 1`] = `
+Array [
+  <div
+    className="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+    role="progressbar"
+    style={
+      Object {
+        "height": 40,
+        "width": 40,
+      }
+    }
+  >
+    <svg
+      className="MuiCircularProgress-svg"
+      viewBox="22 22 44 44"
+    >
+      <circle
+        className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+        cx={44}
+        cy={44}
+        fill="none"
+        r={20.2}
+        strokeWidth={3.6}
+        style={Object {}}
+      />
+    </svg>
+  </div>,
+  <div
+    className="MuiCircularProgress-root MuiCircularProgress-colorSecondary MuiCircularProgress-indeterminate"
+    role="progressbar"
+    style={
+      Object {
+        "height": 40,
+        "width": 40,
+      }
+    }
+  >
+    <svg
+      className="MuiCircularProgress-svg"
+      viewBox="22 22 44 44"
+    >
+      <circle
+        className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+        cx={44}
+        cy={44}
+        fill="none"
+        r={20.2}
+        strokeWidth={3.6}
+        style={Object {}}
+      />
+    </svg>
+  </div>,
+  <div
+    className="MuiCircularProgress-root MuiCircularProgress-colorSecondary MuiCircularProgress-indeterminate"
+    role="progressbar"
+    style={
+      Object {
+        "height": 40,
+        "width": 40,
+      }
+    }
+  >
+    <svg
+      className="MuiCircularProgress-svg"
+      viewBox="22 22 44 44"
+    >
+      <circle
+        className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+        cx={44}
+        cy={44}
+        fill="none"
+        r={20.2}
+        strokeWidth={3.6}
+        style={Object {}}
+      />
+    </svg>
+  </div>,
+]
+`;
+
 exports[`Storyshots Material-UI Tabs Default 1`] = `
 <div
   className="MuiPaper-root MuiPaper-elevation1"
@@ -318,7 +403,7 @@ exports[`Storyshots Material-UI Tabs Default 1`] = `
       >
         <button
           aria-selected={false}
-          className="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit"
+          className="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit makeStyles-labelHighlight-3"
           disabled={false}
           onBlur={[Function]}
           onClick={[Function]}
