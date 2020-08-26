@@ -29,7 +29,7 @@ addDecorator((story) => (
 addParameters({
   options: {
     storySort: {
-      order: ["Welcome", "README"],
+      order: ["Welcome", "Hi", "README"],
     },
   },
 });
