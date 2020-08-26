@@ -162,16 +162,16 @@ exports[`Storyshots Hi To Next 1`] = `
 exports[`Storyshots Material-UI Breadcrumbs Default 1`] = `
 <nav
   aria-label="breadcrumb"
-  className="MuiTypography-root MuiBreadcrumbs-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+  className="MuiTypography-root-5 MuiBreadcrumbs-root-1 MuiTypography-body1-7 MuiTypography-colorTextSecondary-31"
 >
   <ol
-    className="MuiBreadcrumbs-ol"
+    className="MuiBreadcrumbs-ol-2"
   >
     <li
-      className="MuiBreadcrumbs-li"
+      className="MuiBreadcrumbs-li-3"
     >
       <a
-        className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorInherit"
+        className="MuiTypography-root-5 MuiLink-root-35 MuiLink-underlineHover-37 MuiTypography-colorInherit-27"
         href="/"
         onBlur={[Function]}
         onFocus={[Function]}
@@ -181,15 +181,15 @@ exports[`Storyshots Material-UI Breadcrumbs Default 1`] = `
     </li>
     <li
       aria-hidden={true}
-      className="MuiBreadcrumbs-separator"
+      className="MuiBreadcrumbs-separator-4"
     >
       /
     </li>
     <li
-      className="MuiBreadcrumbs-li"
+      className="MuiBreadcrumbs-li-3"
     >
       <a
-        className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorInherit"
+        className="MuiTypography-root-5 MuiLink-root-35 MuiLink-underlineHover-37 MuiTypography-colorInherit-27"
         href="#"
         onBlur={[Function]}
         onFocus={[Function]}
@@ -199,15 +199,15 @@ exports[`Storyshots Material-UI Breadcrumbs Default 1`] = `
     </li>
     <li
       aria-hidden={true}
-      className="MuiBreadcrumbs-separator"
+      className="MuiBreadcrumbs-separator-4"
     >
       /
     </li>
     <li
-      className="MuiBreadcrumbs-li"
+      className="MuiBreadcrumbs-li-3"
     >
       <p
-        className="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextPrimary"
+        className="MuiTypography-root-5 MuiTypography-body1-7 MuiTypography-colorTextPrimary-30"
       >
         Breadcrumb
       </p>
@@ -218,7 +218,7 @@ exports[`Storyshots Material-UI Breadcrumbs Default 1`] = `
 
 exports[`Storyshots Material-UI Button Default 1`] = `
 <button
-  className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+  className="MuiButtonBase-root-29 MuiButton-root-0 MuiButton-contained-8 MuiButton-containedPrimary-9"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -235,11 +235,11 @@ exports[`Storyshots Material-UI Button Default 1`] = `
   type="button"
 >
   <span
-    className="MuiButton-label"
+    className="MuiButton-label-1"
   >
     Hello 
     <span
-      className="makeStyles-labelHighlight-2"
+      className="makeStyles-labelHighlight-1"
     >
       World
     </span>
@@ -249,7 +249,7 @@ exports[`Storyshots Material-UI Button Default 1`] = `
 
 exports[`Storyshots Material-UI Button Secondary 1`] = `
 <button
-  className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary"
+  className="MuiButtonBase-root-29 MuiButton-root-0 MuiButton-contained-8 MuiButton-containedSecondary-10"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -266,7 +266,7 @@ exports[`Storyshots Material-UI Button Secondary 1`] = `
   type="button"
 >
   <span
-    className="MuiButton-label"
+    className="MuiButton-label-1"
   >
     Hello World
   </span>
@@ -275,7 +275,7 @@ exports[`Storyshots Material-UI Button Secondary 1`] = `
 
 exports[`Storyshots Material-UI CircularProgress Default 1`] = `
 <div
-  className="MuiCircularProgress-root makeStyles-labelHighlight-3 MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+  className="MuiCircularProgress-root-0 makeStyles-labelHighlight-2 MuiCircularProgress-colorPrimary-3 MuiCircularProgress-indeterminate-2"
   role="progressbar"
   style={
     Object {
@@ -285,11 +285,11 @@ exports[`Storyshots Material-UI CircularProgress Default 1`] = `
   }
 >
   <svg
-    className="MuiCircularProgress-svg"
+    className="MuiCircularProgress-svg-5"
     viewBox="22 22 44 44"
   >
     <circle
-      className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+      className="MuiCircularProgress-circle-6 MuiCircularProgress-circleIndeterminate-8"
       cx={44}
       cy={44}
       fill="none"
@@ -304,7 +304,7 @@ exports[`Storyshots Material-UI CircularProgress Default 1`] = `
 exports[`Storyshots Material-UI CircularProgress Double 1`] = `
 Array [
   <div
-    className="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+    className="MuiCircularProgress-root-0 MuiCircularProgress-colorPrimary-3 MuiCircularProgress-indeterminate-2"
     role="progressbar"
     style={
       Object {
@@ -314,11 +314,11 @@ Array [
     }
   >
     <svg
-      className="MuiCircularProgress-svg"
+      className="MuiCircularProgress-svg-5"
       viewBox="22 22 44 44"
     >
       <circle
-        className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+        className="MuiCircularProgress-circle-6 MuiCircularProgress-circleIndeterminate-8"
         cx={44}
         cy={44}
         fill="none"
@@ -329,7 +329,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="MuiCircularProgress-root MuiCircularProgress-colorSecondary MuiCircularProgress-indeterminate"
+    className="MuiCircularProgress-root-0 MuiCircularProgress-colorSecondary-4 MuiCircularProgress-indeterminate-2"
     role="progressbar"
     style={
       Object {
@@ -339,11 +339,11 @@ Array [
     }
   >
     <svg
-      className="MuiCircularProgress-svg"
+      className="MuiCircularProgress-svg-5"
       viewBox="22 22 44 44"
     >
       <circle
-        className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+        className="MuiCircularProgress-circle-6 MuiCircularProgress-circleIndeterminate-8"
         cx={44}
         cy={44}
         fill="none"
@@ -359,7 +359,7 @@ Array [
 exports[`Storyshots Material-UI CircularProgress Triple 1`] = `
 Array [
   <div
-    className="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+    className="MuiCircularProgress-root-0 MuiCircularProgress-colorPrimary-3 MuiCircularProgress-indeterminate-2"
     role="progressbar"
     style={
       Object {
@@ -369,11 +369,11 @@ Array [
     }
   >
     <svg
-      className="MuiCircularProgress-svg"
+      className="MuiCircularProgress-svg-5"
       viewBox="22 22 44 44"
     >
       <circle
-        className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+        className="MuiCircularProgress-circle-6 MuiCircularProgress-circleIndeterminate-8"
         cx={44}
         cy={44}
         fill="none"
@@ -384,7 +384,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="MuiCircularProgress-root MuiCircularProgress-colorSecondary MuiCircularProgress-indeterminate"
+    className="MuiCircularProgress-root-0 MuiCircularProgress-colorSecondary-4 MuiCircularProgress-indeterminate-2"
     role="progressbar"
     style={
       Object {
@@ -394,11 +394,11 @@ Array [
     }
   >
     <svg
-      className="MuiCircularProgress-svg"
+      className="MuiCircularProgress-svg-5"
       viewBox="22 22 44 44"
     >
       <circle
-        className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+        className="MuiCircularProgress-circle-6 MuiCircularProgress-circleIndeterminate-8"
         cx={44}
         cy={44}
         fill="none"
@@ -409,7 +409,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="MuiCircularProgress-root MuiCircularProgress-colorSecondary MuiCircularProgress-indeterminate"
+    className="MuiCircularProgress-root-0 MuiCircularProgress-colorSecondary-4 MuiCircularProgress-indeterminate-2"
     role="progressbar"
     style={
       Object {
@@ -419,11 +419,11 @@ Array [
     }
   >
     <svg
-      className="MuiCircularProgress-svg"
+      className="MuiCircularProgress-svg-5"
       viewBox="22 22 44 44"
     >
       <circle
-        className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+        className="MuiCircularProgress-circle-6 MuiCircularProgress-circleIndeterminate-8"
         cx={44}
         cy={44}
         fill="none"
@@ -438,13 +438,13 @@ Array [
 
 exports[`Storyshots Material-UI Tabs Default 1`] = `
 <div
-  className="MuiPaper-root MuiPaper-elevation1"
+  className="MuiPaper-root-1 MuiPaper-elevation1-5"
 >
   <div
-    className="MuiTabs-root"
+    className="MuiTabs-root-29"
   >
     <div
-      className="MuiTabs-scroller MuiTabs-fixed"
+      className="MuiTabs-scroller-34 MuiTabs-fixed-35"
       onScroll={[Function]}
       style={
         Object {
@@ -454,13 +454,13 @@ exports[`Storyshots Material-UI Tabs Default 1`] = `
       }
     >
       <div
-        className="MuiTabs-flexContainer"
+        className="MuiTabs-flexContainer-31"
         onKeyDown={[Function]}
         role="tablist"
       >
         <button
           aria-selected={false}
-          className="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit makeStyles-labelHighlight-4"
+          className="MuiButtonBase-root-50 MuiTab-root-40 MuiTab-textColorInherit-42 makeStyles-labelHighlight-0"
           disabled={false}
           onBlur={[Function]}
           onClick={[Function]}
@@ -479,14 +479,14 @@ exports[`Storyshots Material-UI Tabs Default 1`] = `
           type="button"
         >
           <span
-            className="MuiTab-wrapper"
+            className="MuiTab-wrapper-49"
           >
             一個目
           </span>
         </button>
         <button
           aria-selected={false}
-          className="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit Mui-disabled Mui-disabled"
+          className="MuiButtonBase-root-50 MuiTab-root-40 MuiTab-textColorInherit-42 MuiTab-disabled-46 MuiButtonBase-disabled-51"
           disabled={true}
           onBlur={[Function]}
           onClick={[Function]}
@@ -505,14 +505,14 @@ exports[`Storyshots Material-UI Tabs Default 1`] = `
           type="button"
         >
           <span
-            className="MuiTab-wrapper"
+            className="MuiTab-wrapper-49"
           >
             ２個め
           </span>
         </button>
         <button
           aria-selected={false}
-          className="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit"
+          className="MuiButtonBase-root-50 MuiTab-root-40 MuiTab-textColorInherit-42"
           disabled={false}
           onBlur={[Function]}
           onClick={[Function]}
@@ -531,7 +531,7 @@ exports[`Storyshots Material-UI Tabs Default 1`] = `
           type="button"
         >
           <span
-            className="MuiTab-wrapper"
+            className="MuiTab-wrapper-49"
           >
             さいご
           </span>
