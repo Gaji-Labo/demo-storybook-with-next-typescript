@@ -159,6 +159,63 @@ exports[`Storyshots Hi To Next 1`] = `
 </div>
 `;
 
+exports[`Storyshots Material-UI Breadcrumbs Default 1`] = `
+<nav
+  aria-label="breadcrumb"
+  className="MuiTypography-root MuiBreadcrumbs-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+>
+  <ol
+    className="MuiBreadcrumbs-ol"
+  >
+    <li
+      className="MuiBreadcrumbs-li"
+    >
+      <a
+        className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorInherit"
+        href="/"
+        onBlur={[Function]}
+        onFocus={[Function]}
+      >
+        Material-UI
+      </a>
+    </li>
+    <li
+      aria-hidden={true}
+      className="MuiBreadcrumbs-separator"
+    >
+      /
+    </li>
+    <li
+      className="MuiBreadcrumbs-li"
+    >
+      <a
+        className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorInherit"
+        href="#"
+        onBlur={[Function]}
+        onFocus={[Function]}
+      >
+        Core
+      </a>
+    </li>
+    <li
+      aria-hidden={true}
+      className="MuiBreadcrumbs-separator"
+    >
+      /
+    </li>
+    <li
+      className="MuiBreadcrumbs-li"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextPrimary"
+      >
+        Breadcrumb
+      </p>
+    </li>
+  </ol>
+</nav>
+`;
+
 exports[`Storyshots Material-UI Button Default 1`] = `
 <button
   className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
@@ -182,7 +239,7 @@ exports[`Storyshots Material-UI Button Default 1`] = `
   >
     Hello 
     <span
-      className="makeStyles-labelHighlight-1"
+      className="makeStyles-labelHighlight-2"
     >
       World
     </span>
@@ -218,7 +275,7 @@ exports[`Storyshots Material-UI Button Secondary 1`] = `
 
 exports[`Storyshots Material-UI CircularProgress Default 1`] = `
 <div
-  className="MuiCircularProgress-root makeStyles-labelHighlight-2 MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+  className="MuiCircularProgress-root makeStyles-labelHighlight-3 MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
   role="progressbar"
   style={
     Object {
@@ -403,7 +460,7 @@ exports[`Storyshots Material-UI Tabs Default 1`] = `
       >
         <button
           aria-selected={false}
-          className="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit makeStyles-labelHighlight-3"
+          className="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit makeStyles-labelHighlight-4"
           disabled={false}
           onBlur={[Function]}
           onClick={[Function]}
