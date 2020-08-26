@@ -41,11 +41,11 @@ exports[`Storyshots Demo Button With Text 1`] = `
   }
   type="button"
 >
-  Hello Button
+  Hello Button!
 </button>
 `;
 
-exports[`Storyshots Welcome To Next 1`] = `
+exports[`Storyshots Hi To Next 1`] = `
 <div
   className="jsx-1799183244 container"
 >
@@ -156,6 +156,247 @@ exports[`Storyshots Welcome To Next 1`] = `
       />
     </a>
   </footer>
+</div>
+`;
+
+exports[`Storyshots Material-UI Button Default 1`] = `
+<button
+  className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiButton-label"
+  >
+    Hello World
+  </span>
+</button>
+`;
+
+exports[`Storyshots Material-UI Button Secondary 1`] = `
+<button
+  className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSecondary"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiButton-label"
+  >
+    Hello World
+  </span>
+</button>
+`;
+
+exports[`Storyshots Material-UI CircularProgress Default 1`] = `
+<div
+  className="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+  role="progressbar"
+  style={
+    Object {
+      "height": 40,
+      "width": 40,
+    }
+  }
+>
+  <svg
+    className="MuiCircularProgress-svg"
+    viewBox="22 22 44 44"
+  >
+    <circle
+      className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+      cx={44}
+      cy={44}
+      fill="none"
+      r={20.2}
+      strokeWidth={3.6}
+      style={Object {}}
+    />
+  </svg>
+</div>
+`;
+
+exports[`Storyshots Material-UI CircularProgress Double 1`] = `
+Array [
+  <div
+    className="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+    role="progressbar"
+    style={
+      Object {
+        "height": 40,
+        "width": 40,
+      }
+    }
+  >
+    <svg
+      className="MuiCircularProgress-svg"
+      viewBox="22 22 44 44"
+    >
+      <circle
+        className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+        cx={44}
+        cy={44}
+        fill="none"
+        r={20.2}
+        strokeWidth={3.6}
+        style={Object {}}
+      />
+    </svg>
+  </div>,
+  <div
+    className="MuiCircularProgress-root MuiCircularProgress-colorSecondary MuiCircularProgress-indeterminate"
+    role="progressbar"
+    style={
+      Object {
+        "height": 40,
+        "width": 40,
+      }
+    }
+  >
+    <svg
+      className="MuiCircularProgress-svg"
+      viewBox="22 22 44 44"
+    >
+      <circle
+        className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+        cx={44}
+        cy={44}
+        fill="none"
+        r={20.2}
+        strokeWidth={3.6}
+        style={Object {}}
+      />
+    </svg>
+  </div>,
+]
+`;
+
+exports[`Storyshots Material-UI Tabs Default 1`] = `
+<div
+  className="MuiPaper-root MuiPaper-elevation1"
+>
+  <div
+    className="MuiTabs-root"
+  >
+    <div
+      className="MuiTabs-scroller MuiTabs-fixed"
+      onScroll={[Function]}
+      style={
+        Object {
+          "marginBottom": null,
+          "overflow": "hidden",
+        }
+      }
+    >
+      <div
+        className="MuiTabs-flexContainer"
+        onKeyDown={[Function]}
+        role="tablist"
+      >
+        <button
+          aria-selected={false}
+          className="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="tab"
+          tabIndex={-1}
+          type="button"
+        >
+          <span
+            className="MuiTab-wrapper"
+          >
+            一個目
+          </span>
+        </button>
+        <button
+          aria-selected={false}
+          className="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit Mui-disabled Mui-disabled"
+          disabled={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="tab"
+          tabIndex={-1}
+          type="button"
+        >
+          <span
+            className="MuiTab-wrapper"
+          >
+            ２個め
+          </span>
+        </button>
+        <button
+          aria-selected={false}
+          className="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="tab"
+          tabIndex={-1}
+          type="button"
+        >
+          <span
+            className="MuiTab-wrapper"
+          >
+            さいご
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
 </div>
 `;
 
